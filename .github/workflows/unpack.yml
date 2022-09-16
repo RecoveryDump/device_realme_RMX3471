@@ -1,0 +1,23 @@
+name: Recovery Boot IMG Unpacker
+on:
+  workflow_dispatch:
+    inputs:
+      Link:
+        description: 'Enter Direct Download Link'
+        required: true
+      Version:
+        description: 'Add Version'
+        required: true
+
+env:
+  LINK: ${{ github.event.inputs.Link }}
+  VERSION: ${{ github.event.inputs.Version }}
+  GH_TOKEN: ${{ secrets.Gh_Token }}
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+       - name: Recovery Boot IMG Unpacker
+         uses: RecoveryDump/unpacker@master
