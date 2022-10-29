@@ -1,0 +1,283 @@
+### LICENSE:
+#--- COMMON SYSTEM STRING RESOURCE
+#
+text_ok=OK
+text_next=Seguinte >
+text_back=< Anterior
+text_yes=OK
+text_no=Cancelar
+text_about=Informações
+text_calibrating=Ferramentas de calibragem
+text_quit=Sair
+text_quit_msg=Tem a certeza de que pretende sair?
+text_done=Concluído
+global_done=Concluído
+wipe_no=Cancelar
+wipe_yes=Limpar
+format_no=Cancelar
+format_yes=Formatar
+
+#
+#-- CUSTOM STRING RESOURCE
+#
+lang.name=Escolha um idioma/Select Language
+lang.title_name=Select Language
+lang.desc=idioma selecionado
+default_name=Nome predefinido
+default_title=Título predefinido
+default_desc=O dispositivo irá reiniciar.
+
+mainmenu.name= Modo de recuperação
+mainmenu.title_name=Menu principal
+mainmenu.install.name=Instalar a partir de cartão SD
+mainmenu.tools.name=Ferramentas
+
+back.name=Voltar
+back.title_name=Voltar ao menu principal
+
+sd.back.name=Voltar
+sd.back.desc=Voltar ao topo
+
+sd.name=Instalar a partir do armazenamento
+sd.title_name=Instalar a partir do armazenamento
+sd.desc=Instalar a partir de dispositivo de armazenamento
+batt.name=Bateria
+time.name=Hora
+
+sd.install.name=Escolher ficheiro .zip do cartão SD
+sd.update.name=apply /sdcard/update.zip
+sd.internal.name=Instalar a partir do dispositivo de armazenamento
+sd.external.name=A partir de cartão SD
+sd.usb_otg.name=A partir de USB OTG
+sd.install.confirm.name=Aviso
+sd.install.confirm.desc=Certifique-se de que o pacote selecionado está correto. Esta ação não pode ser anulada.
+sd.install.success.name=Alerta
+sd.install.failed.name=Falha na instalação
+sd.install.failed.keylog=41:OTA升级失败:1
+sd.install.notice=Alerta
+sd.install.success.desc=Instalação bem sucedida.
+sd.install.stress.success=Teste de stress OTA com êxito.
+sd.install.stress.fail=Teste de stress OTA falhou.
+sd.install.failed.desc=Falha na instalação.
+sd.install.downgrade.failed=A versão instalada é inferior à atual.
+sd.install.caplow.desc=Nível da bateria inferior a 20%. Carregue a bateria a pelo menos 20%.
+install.package.name=A atualizar! Aguarde
+verify.package.name=Verificando, aguarde
+install.package.desc=Não realize qualquer ação.
+install.package.attention=A atualizar, por favor não reiniciar
+install.package.knowmore=Visite www.oppo.com para saber mais
+install.package.line=/
+install.package.stage=  Nesta fase cerca de
+install.package.remaingtimesingle=Cerca de 
+install.package.minute=minutos
+install.package.minutesin=minuto
+install.package.notice.singular=Este procedimento demora cerca de %s minuto
+install.package.notice.plural=Este procedimento demora cerca de %s minutos
+sd.install.success.leftbutton=Reiniciar
+
+ums.name=Modo de armazenamento em massa USB
+ums.btn.name=Sair do modo UMS
+ums.notice.name=Modo UMS
+ums.notice.desc=Modo UMS ativado
+
+power.name=Ligar/desligar
+power.title=Operações relacionadas com Ligar/desligar
+reboot.null= Reiniciar dispositivo
+reboot.null.title= reiniciar agora
+reboot.recovery= Reiniciar para recuperação
+reboot.bootloader= reiniciar para carregador de arranque
+reboot.poweroff= Desligar
+poweroff.desc=O seu dispositivo irá desligar-se.
+
+alert.result=Erro!
+alert.desc=Falha na operação
+
+mount.name=Montar
+mount.title=Montar e ativar/desativar armazenamento USB
+mount.cache.name=Montar cache
+mount.data.name=Montar dados
+mount.system.name=Montar sistema
+mount.sdcard.name=Montar cartão SD
+mount.toggle.name=Ativar/desativar armazenamento USB
+
+super.verify.menu.name=Verificar partições
+super.verify.wait=Verificando, aguarde...
+super.verify.success=Verificar com sucesso
+super.verify.fail=Falha na verificação
+
+wipe.name=Limpar dados
+wipe.title=Limpar dados ou formatar partição
+wipe.cache.name=Limpar cache
+wipe.cache.desc=A cache será limpa. Esta ação não pode ser anulada.
+wipe.content.name=Limpar todos os conteúdos e definições
+wipe.factory.name=Limpar todos os dados e aplicação amovível
+wipe.factory.desc=Os seus dados e a aplicação serão limpos. Esta ação não pode ser anulada.
+wipe.data.name=Limpar dados
+wipe.data.desc=Os seus dados serão limpos. Esta ação não pode ser anulada.
+#add for new wipe items
+wipe.appdata.name=Limpar todos os dados da aplicação
+wipe.appdata.desc=Todos os dados da aplicação serão repostos. Esta ação não pode ser anulada.
+wipe.result.appdata.ok=Todos os dados da aplicação limpos.
+wipe.result.appdata.failed=Falha ao limpar os dados da aplicação.
+wipe.reserve.name=Limpar dados
+wipe.reserve.notice=Manter contactos, mensagens e fotografias.
+wipe.reserve.desc=Os dados da aplicação (exceto contactos, mensagens, fotografias e palavra-passe do ecrã de bloqueio) serão apagados, mas a aplicação não será eliminada. Esta ação não pode ser anulada.
+wipe.result.reserve.ok=Todos os dados da aplicação limpos.
+wipe.result.reserve.failed=Falha ao limpar todos os dados da aplicação.
+
+wipe.progress.namd=A limpar... Aguarde
+wipe.progress.desc=Não realize qualquer ação
+wipe.result.title=Alerta
+wipe.result.success.title=Limpeza efetuada com êxito.
+wipe.result.failed.title=Falha ao limpar os dados.
+wipe.result.factory.ok=Dados e cache limpos com êxito.
+wipe.result.factory.failed=Falha ao limpar dados e cache.
+wipe.result.data.ok=Dados limpos com êxito.
+wipe.result.data.failed=Falha ao limpar os dados.
+wipe.result.cache.ok=Cache limpa com êxito.
+wipe.result.cache.failed=Falha ao limpar cache.
+format.system.name=Formatar sistema
+format.data.name=Formatar dados
+format.data.desc=Todos os dados do utilizador serão repostos.
+format.result.data.ok=Dados formatados com êxito.
+format.result.data.failed=Falha ao formatar os dados.
+format.cache.name=Formatar cache
+format.boot.name=Formatar arranque
+format.sdcard.name=Formatar cartão SD
+format.all.name=Formatar tudo (exceto cartão SD e arranque)
+
+memtest.name=Caso de teste 1
+memtest.title=Caso de teste 1
+memtest.warning.desc=O caso de teste 1 irá iniciar. Isto demorará cerca de meia hora e não pode ser interrompido. Continuar? (Certifique-se de que o nível da bateria está acima dos 30%)
+memtest.information.waiting=A testar... Isto demorará cerca de meia hora. Aguarde.
+memtest.result.pass=Passou no teste
+memtest.result.failure=Falha no teste
+
+resize.notice.all=Falha na instalação de todo o pacote de atualização
+#xiaofan.yang@PSW.TECH.AgingTest, 2019/02/14,Add for factory agingtest
+#ifdef OPLUS_FEATURE_AGINGTEST
+agingtest.name=Teste de envelhecimento
+agingtest.title=Teste de envelhecimento (Não desligar)
+agingtest.process.title=Teste de envelhecimento do armazenamento
+agingtest.process.desc=Start aging test (DRAM & FLASH) (recommended battery level is above 30% before test)
+agingtest.charging.warning=AVISO:
+agingtest.charging.battwarning1=Nível da bateria é inferior a 
+agingtest.charging.battwarning2=Ligue o dispositivo ao carregador.
+agingtest.charging.battwarning3=Charging, note low battery level!!!
+#endif
+backup.name=Fazer cópia de segurança e restaurar
+backup.title=Fazer cópia de segurança do cartão SD e restaurar a partir do cartão SD
+backup.backup.name=fazer cópia de segurança
+backup.restore.name=restaurar
+advanced_backup.name=Cópia de segurança avançada
+advanced_backup.cache.name=Fazer cópia de segurança da cache
+advanced_backup.data.name=Fazer cópia de segurança dos dados
+advanced_backup.system.name=Fazer cópia de segurança do sistema
+advanced_backup.boot.name=Fazer cópia de segurança do arranque
+advanced_backup.recovery.name=Fazer cópia de segurança da recuperação
+advanced_restore.name=Restauro avançado
+advanced_restore.cache.name=Restaurar cache
+advanced_restore.data.name=Restaurar dados
+advanced_restore.system.name=Restaurar sistema
+advanced_restore.boot.name=Restaurar arranque
+advanced_restore.recovery.name=Restaurar recuperação
+
+tool.name=ferramenta
+tool.title=Ferramentas avançadas
+tool.key.name=Teste principal
+tool.time.name=Definição do temporizador
+tool.battary.name=Bateria Wip
+tool.log.name=Copiar registo para cartão SD
+tool.log.desc=Copiar registo?
+tool.permission.name=Permissão para corrigir
+
+root.execute.name=Obter permissão de root
+root.cancel.name=Cancelar permissão de root
+root.description=Execute primeiro ADB disable-verity. Continuar mesmo assim?
+root.verity.notice=Faça root no seu dispositivo após executar "adb disable-verity".
+
+info.name.rooted=V1.2 (Desbloqueado por rooting)
+info.name=Versão 1.2
+rootdetect.rooted.desc=Este dispositivo já estava desbloqueado por rooting
+rootdetect.noroot.desc=Este dispositivo nunca foi desbloqueado por rooting
+root.detect.title=verifique se a versão foi ou não desbloqueada por rooting
+info.title=Informação sobre a recuperação oppo
+info.mount.name=Informações de armazenamento
+info.log.name=Registo
+info.about.name=Informações sobre a recuperação oppo
+
+info.name.sys_verification=Verificar disco
+info.name.sys_verification_title=A verificar disco...
+info.name.sys_verification.pass=Os dados do disco estão intactos
+info.name.sys_verification.fail=Exceções nos dados do disco
+info.name.sys_verification.waiting=A verificar exceções dos dados do disco... Aguarde.
+about.device=Dispositivo:
+about.name=Nome:
+about.version=Versão:
+about.date=Data:
+
+#
+#-- UNLOCK STRING RESOURCE
+#
+input.password=Introduza a palavra-passe do ecrã de bloqueio
+input.drawpattern=Desenhe o padrão do ecrã de bloqueio
+input.password.install=Introduza a palavra-passe do ecrã de bloqueio para atualizar
+input.password.wipe=Introduza a palavra-passe do ecrã de bloqueio para limpar dados
+input.password.wrong=Palavra-passe errada
+keyboard.symbol=SYM
+input.verification.code=Introduza o código de verificação:
+input.verification.wrong=Código de verificação errado
+
+#ifdef OPLUS_FEATURE_RECOVERY_RESET
+#Zhengkang.Ji@ROM.Framework, 2017.12.31 add for system repair
+repair.name=Atualização online
+repair.notice=Manter dados
+repair.title=Atualização online
+searchap.name=A procurar Wi-Fi...
+info.searchap.waiting=A procurar Wi-Fi... Aguarde.
+info.search.noap=Nenhuma rede disponível.
+query.name=Transferir o pacote de atualização e reparar o sistema. É recomendado que ligue o carregador.
+query.name.title=Transferir o pacote de atualização e reparar o sistema
+query.noap=rede não encontrada
+info.notice=Pode não conseguir ligar-se a uma rede Wi-Fi que requeira autenticação.
+connectap.name=Ligar ao Wi-Fi
+info.connectap.waiting=A ligar ao Wi-Fi. Aguarde.
+info.connect.success=Wi-Fi ligado
+info.connect.fail=Falha ao ligar ao Wi-Fi
+info.query.waiting=A procurar... Aguarde.
+info.query.pass=Detetada versão transferível.
+info.query.cancel=Iniciar transferência
+info.query.start=Cancelar
+info.query.fail=Não foram encontradas atualizações.
+info.query.net.fail=A ligação à rede é anormal.
+input.appassword=Introduza a palavra-passe do Wi-Fi
+input.ap.password.wrong=Palavra-passe errada ou rede anormal. Tente novamente.
+info.download.resume=Continuar para transferência
+info.download.fail=Falha na transferência
+info.download.disconnect=Wi-Fi desligado
+info.download.stop=A transferência foi suspensa
+download.package.name=A transferir
+download.package.attention=Não realize qualquer ação.
+button.download.stop=Colocar transferência em pausa e regressar
+sd.install.caplow.desc1=Nível da bateria é inferior a 20%. Ligue o carregador.
+sd.install.caplow.desc2=A capacidade é inferior a 50%. Carregue a bateria a 50%.
+sd.download.noenough.space=Espaço insuficiente.
+power.reboot.downmode=Ir para modo de transferência
+power.reboot.downmode.information=O modo de transferência é utilizado apenas para enviar por flash uma nova versão para o seu dispositivo depois de o ter adquirido. Se entrar neste modo involuntariamente, pressione e mantenha pressionados os botões Aumentar o volume e Ligar/desligar para forçar o seu dispositivo a reiniciar.
+
+#JianHui.Yu@ROM.SDK, 2019-01-03 : Add for Unlock Safety
+input.password.retry1=Tente novamente após 
+input.password.retry2=segundo(s)
+
+#endif /* OPLUS_FEATURE_RECOVERY_RESET */
+
+#Liang.Zhang@PSW.TECH.Stability.PHOENIX_PROJECT, 2018/12/29, Add for recovery hint when fatal error reboot to recovery OPLUS_FEATURE_PHOENIX
+fatal_error.recovery.title=Aviso
+fatal_error.recovery.hint=Erro do sistema. Selecione "Atualização online (manter dados)" para recuperar o sistema após selecionar um idioma.
+data_error.recovery.title=Aviso
+data_error.recovery.hint=Erro de dados. Selecione "Limpar dados" para recuperar o sistema após selecionar um idioma.
+
+fastbootd.name=Modo Fastbootd
+
+boot.reason.menu=Motivo do arranque
+next.button.name=Seguinte

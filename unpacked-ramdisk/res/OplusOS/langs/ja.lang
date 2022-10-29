@@ -1,0 +1,287 @@
+﻿### LICENSE:
+#--- COMMON SYSTEM STRING RESOURCE
+#
+text_ok=OK
+text_next=次へ>
+text_back=< 戻る
+text_yes=OK
+text_no=キャンセル
+text_about=このゲームについて
+text_calibrating=キャリブレーションツール
+text_quit=終了
+text_quit_msg=終了しますか？
+text_done=完了
+global_done=完了
+wipe_no=キャンセル
+wipe_yes=消去
+format_no=キャンセル
+format_yes=フォーマット
+
+#
+#-- CUSTOM STRING RESOURCE
+#
+lang.name=言語を選択してください
+lang.title_name=Select Language
+lang.desc=選択した言語
+default_name=デフォルトの名前
+default_title=デフォルトのタイトル
+default_desc=デバイスが再起動します。
+
+mainmenu.name= RECOVERY
+mainmenu.title_name=メインメニュー
+mainmenu.install.name=SDカードからインストール
+mainmenu.tools.name=ツール
+
+back.name=戻る
+back.title_name=ペアレントメニューに戻る
+
+sd.back.name=戻る
+sd.back.desc=上に戻る
+
+sd.name=ストレージからインストール
+sd.title_name=ストレージからインストール
+sd.desc=ストレージデバイスからインストール
+batt.name=バッテリー
+time.name=時間
+
+sd.install.name=SD カードから.zip ファイルを選択
+sd.update.name=apply /sdcard/update.zip
+sd.internal.name=デバイスストレージからインストール
+sd.external.name=SD カードから
+sd.usb_otg.name=USB OTG から
+sd.install.confirm.name=通知
+sd.install.confirm.desc=選択したパッケージが正しいことを確認してください。この操作を取り消すことはできません。
+sd.install.success.name=プロンプト
+sd.install.failed.name=インストールできませんでした
+sd.install.failed.keylog=41:OTA升级失败:1
+sd.install.notice=プロンプト
+sd.install.success.desc=インストールが完了しました。
+sd.install.stress.success=OTA ストレステストに成功しました。
+sd.install.stress.fail=OTA ストレステストに失敗しました。
+sd.install.failed.desc=インストールに失敗しました。
+sd.install.downgrade.failed=インストールされたバージョンは現在のものよりも古いバージョンです。
+sd.install.caplow.desc=バッテリー残量が 20% 未満です。20% 以上充電してください。
+install.package.name=更新します。お待ちください
+verify.package.name=お待ちください
+install.package.desc=操作を一切行わないでください。
+install.package.attention=更新します。再起動しないでください
+install.package.knowmore=詳細については、www.oppo.com をご覧ください
+install.package.line=/
+install.package.stage=  このステージでは、
+install.package.remaingtimesingle=だいたい 
+install.package.minute=分
+install.package.minutesin=分
+install.package.notice.singular=これには約 %s 分かかります
+install.package.notice.plural=これには約 %s 分かかります
+sd.install.success.leftbutton=再起動
+
+ums.name=USB 大容量ストレージモード
+ums.btn.name=UMS モードを終了する
+ums.notice.name=UMS モード
+ums.notice.desc=UMS モードが有効です
+
+power.name=電源
+power.title=電源に関連した操作
+reboot.null= デバイスを再起動
+reboot.null.title= 再起動する
+reboot.recovery= リカバリモードへ再起動
+reboot.bootloader= ブートローダーへ再起動
+reboot.poweroff= 電源オフ
+poweroff.desc=デバイスがオフになります。
+
+alert.result=エラーです。
+alert.desc=操作できませんでした
+
+mount.name=マウント
+mount.title=USBストレージをマウントおよびトグル
+mount.cache.name=キャッシュをマウント
+mount.data.name=データをマウント
+mount.system.name=システムをマウント
+mount.sdcard.name=SD カードをマウント
+mount.toggle.name=USB ストレージをトグル
+
+super.verify.menu.name=データの検証
+super.verify.wait=お待ちください
+super.verify.success=検証に成功しました
+super.verify.fail=検証に失敗しました
+
+wipe.name=データを消去
+wipe.title=データを消去またはパーティションをフォーマット
+wipe.cache.name=キャッシュを消去
+wipe.cache.desc=キャッシュが消去されます。この操作を取り消すことはできません。
+wipe.content.name=すべてのコンテンツと設定を消去
+wipe.factory.name=すべてのデータと消去可能なアプリケーションを消去
+wipe.factory.desc=データとアプリケーションが消去されます。この操作を取り消すことはできません。
+wipe.data.name=データを消去
+wipe.data.desc=データが消去されます。この操作を取り消すことはできません。
+#add for new wipe items
+wipe.appdata.name=すべてのアプリデータを消去
+wipe.appdata.desc=このアプリのすべてのデータが完全に削除されます。この操作を取り消すことはできません。
+wipe.result.appdata.ok=すべてのアプリデータが消去されました。
+wipe.result.appdata.failed=アプリデータを消去できませんでした。
+wipe.reserve.name=データを消去
+wipe.reserve.notice=連絡先、メッセージ、写真は維持されます。
+wipe.reserve.desc=アプリデータ (連絡先、メッセージ、写真、ロック画面パスワード以外) は消去されますがアプリは削除されません。この操作を取り消すことはできません。
+wipe.result.reserve.ok=すべてのアプリデータが消去されました。
+wipe.result.reserve.failed=すべてのアプリデータが消去できませんでした。
+
+wipe.progress.namd=消去中…お待ちください
+wipe.progress.desc=操作を一切行わないでください
+wipe.result.title=プロンプト
+wipe.result.success.title=消去できました。
+wipe.result.failed.title=データを消去できませんでした。
+wipe.result.factory.ok=データとキャッシュを消去できました。
+wipe.result.factory.failed=データとキャッシュを消去できませんでした。
+wipe.result.data.ok=データを消去できました。
+wipe.result.data.failed=データを消去できませんでした。
+wipe.result.cache.ok=キャッシュを消去できました。
+wipe.result.cache.failed=キャッシュを消去できませんでした。
+format.system.name=システムをフォーマット
+format.data.name=データを初期化
+format.data.desc=すべてのユーザーデータがリセットされます。
+format.result.data.ok=データをフォーマットできました。
+format.result.data.failed=データをフォーマットできませんでした。
+format.cache.name=キャッシュをフォーマット
+format.boot.name=ブートをフォーマット
+format.sdcard.name=SD カードをフォーマット
+format.all.name=すべてをフォーマット (SD カードとブート以外)
+
+memtest.name=テストケース 1
+memtest.title=テストケース 1
+memtest.warning.desc=テストケース 1 を開始します。これには約 30 分かかり、中断できません。続行しますか？(バッテリー残量が 30% 以上あることを確認してください)
+memtest.information.waiting=テスト中...これには約 30 分かかります。お待ちください。
+memtest.result.pass=合格
+memtest.result.failure=不合格
+
+#xiaofan.yang@PSW.TECH.AgingTest, 2019/02/14,Add for factory agingtest
+#ifdef OPLUS_FEATURE_AGINGTEST
+agingtest.name=エイジングテスト
+agingtest.title=エイジングテスト(電源をオフにしないでください)
+agingtest.process.title=ストレージのエイジングテスト
+agingtest.process.desc=Start aging test (DRAM & FLASH) (recommended battery level is above 30% before test)
+agingtest.charging.warning=警告:
+agingtest.charging.battwarning1=バッテリー残量低下 
+agingtest.charging.battwarning2=デバイスを充電器に接続してください。
+agingtest.charging.battwarning3=Charging, note low battery level!!!
+#endif
+backup.name=バックアップして復元する
+backup.title=SD カードにバックアップして SD カードから復元する
+backup.backup.name=バックアップする
+backup.restore.name=復元する
+advanced_backup.name=詳細なバックアップ
+advanced_backup.cache.name=キャッシュをバックアップ
+advanced_backup.data.name=データをバックアップ
+advanced_backup.system.name=システムのバックアップ
+advanced_backup.boot.name=ブートのバックアップ
+advanced_backup.recovery.name=リカバリをバックアップ
+advanced_restore.name=詳細な復元
+advanced_restore.cache.name=キャッシュを復元する
+advanced_restore.data.name=データを復元する
+advanced_restore.system.name=システムを復元する
+advanced_restore.boot.name=ブートを復元する
+advanced_restore.recovery.name=リカバリを復元する
+
+tool.name=ツール
+tool.title=詳細なツール
+tool.key.name=キーテスト
+tool.time.name=タイマー設定
+tool.battary.name=バッテリーを消去
+tool.log.name=ログを SD カードにコピー
+tool.log.desc=ログをコピーしますか？
+tool.permission.name=権限を修正
+
+root.execute.name=ルート化権限を得る
+root.cancel.name=ルート化権限をキャンセル
+root.description=adb 無効検証テストを最初に実行します。続行しますか？
+root.verity.notice=adb 無効検証テスト実行後にデバイスをルート化してください
+
+userdata.count.name=ユーザーデータを計算する
+userdata.count.wait=ユーザーデータの計算、お待ちください
+userdata.count.success=成功した計算
+userdata.count.fail=計算に失敗しました
+
+info.name.rooted=V1.2 (ルート化済み)
+info.name=Ver 1.2
+rootdetect.rooted.desc=このデバイスはルート化されています
+rootdetect.noroot.desc=このデバイスはルート化されていません
+root.detect.title=バージョンがルート化されているかどうかを確認
+info.title=oppo リカバリ情報
+info.mount.name=ストレージ情報
+info.log.name=ログ
+info.about.name=oppo リカバリについて
+
+info.name.sys_verification=ディスクを確認
+info.name.sys_verification_title=ディスクを確認中...
+info.name.sys_verification.pass=ディスクデータは失われていません
+info.name.sys_verification.fail=ディスクデータの例外
+info.name.sys_verification.waiting=ディスクデータの例外を確認中...お待ちください。
+about.device=デバイス：
+about.name=氏名：
+about.version=バージョン:
+about.date=日付：
+
+#
+#-- UNLOCK STRING RESOURCE
+#
+input.password=ロック画面パスワードを入力してください
+input.drawpattern=ロック画面パターンをドローしてください
+input.password.install=更新するにはロック画面パスワードを入力してください
+input.password.wipe=データを消去するにはロック画面パスワードを入力してください
+input.password.wrong=パスワードが正しくありません
+keyboard.symbol=SYM
+input.verification.code=認証コードを入力してください:
+input.verification.wrong=認証コードが間違っています
+
+#ifdef OPLUS_FEATURE_RECOVERY_RESET
+#Zhengkang.Ji@ROM.Framework, 2017.12.31 add for system repair
+repair.name=オンライン更新
+repair.notice=データを維持
+repair.title=オンライン更新
+searchap.name=Wi-Fi 接続を検索中...
+info.searchap.waiting=Wi-Fi 接続を検索中...お待ちください。
+info.search.noap=利用可能なネットワークがありません。
+query.name=更新パッケージをダウンロードしてシステムを回復してください。充電器に接続してください。
+query.name.title=更新パッケージをダウンロードしてシステムを回復してください
+query.noap=インターネットがない
+info.notice=認証が必要な Wi-Fi ネットワークに接続できない場合があります。
+connectap.name=Wi-Fi に接続
+info.connectap.waiting=Wi-Fi への接続。お待ちください。
+info.connect.success=Wi-Fi に接続されました
+info.connect.fail=Wi-Fiに接続できませんでした
+info.query.waiting=検索中...お待ちください。
+info.query.pass=ダウンロード可能なバージョンが見つかりました。
+info.query.cancel=ダウンロードを開始
+info.query.start=キャンセル
+info.query.fail=更新が見つかりませんでした。
+info.query.net.fail=ネットワーク接続に異常があります。
+input.appassword=Wi-Fi パスワードを入力してください
+input.ap.password.wrong=パスワードが間違っているか、ネットワークに異常があります。操作をやり直してください。
+info.download.resume=ダウンロードを続行
+info.download.fail=ダウンロードできませんでした
+info.download.disconnect=Wi-Fi 接続が解除されました
+info.download.stop=ダウンロードが停止しています
+download.package.name=ダウンロード中
+download.package.attention=操作を一切行わないでください。
+button.download.stop=ダウンロードを一時停止して戻る
+sd.install.caplow.desc1=バッテリー残量が 20% 未満です。充電器に接続してください。
+sd.install.caplow.desc2=容量が 50% 未満です。バッテリーを 50% まで充電してください。
+sd.download.noenough.space=十分な空き容量がありません。
+power.reboot.downmode=ダウンロードモードに入る
+power.reboot.downmode.information=ダウンロードモードは、デバイス購入後に新しいバージョンをデバイスにフラッシュする場合にのみ使用できます。意図せずにこのモードに入った場合は、音量を上げるボタンと電源ボタンを同時に長押ししてデバイスを再起動してください。
+
+#JianHui.Yu@ROM.SDK, 2019-01-03 : Add for Unlock Safety
+input.password.retry1=後でやり直してください 
+input.password.retry2=秒
+
+#endif /* OPLUS_FEATURE_RECOVERY_RESET */
+
+#Liang.Zhang@PSW.TECH.Stability.PHOENIX_PROJECT, 2018/12/29, Add for recovery hint when fatal error reboot to recovery OPLUS_FEATURE_PHOENIX
+fatal_error.recovery.title=通知
+fatal_error.recovery.hint=システムエラーです。言語を選択後に「オンライン更新 (データを維持)」を選択してシステムを復元してください。
+data_error.recovery.title=通知
+data_error.recovery.hint=データエラーです。言語を選択後に「データを消去」を選択してシステムを復元してください。
+
+fastbootd.name=フラッシュブートモード
+
+boot.reason.menu=ブートの理由
+next.button.name=次へ
